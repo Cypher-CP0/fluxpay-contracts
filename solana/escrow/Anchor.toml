@@ -5,10 +5,10 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-fluxpay_escrow = "DhtGudvyvagKWyPhWCXUnjmFCGmiDbhu1spKD44njZaN"
+fluxpay_escrow = "HvmBzCdbAgUN1j1WTxBJrdYXTPhrgrnaHY7ZfB17hpVN"
 
 [programs.devnet]
-fluxpay_escrow = "DhtGudvyvagKWyPhWCXUnjmFCGmiDbhu1spKD44njZaN"
+fluxpay_escrow = "HvmBzCdbAgUN1j1WTxBJrdYXTPhrgrnaHY7ZfB17hpVN"
 
 [registry]
 url = "https://api.apr.dev"
