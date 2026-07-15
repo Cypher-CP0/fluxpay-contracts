@@ -1,8 +1,14 @@
 .anchor
 .DS_Store
-target
-**/*.rs.bk
 node_modules
 test-ledger
 .yarn
 dist
+yarn.lock
+
+# Ignore all build output except the IDL, which we track so downstream
+# consumers (like the fluxpay backend, via git submodule) always have
+# the program's interface without needing to rebuild the contract.
+solana/escrow/target/*
+!solana/escrow/target/idl
+!solana/escrow/target/idl/**
